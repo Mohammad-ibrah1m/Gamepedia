@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.container button {
+  background-color: transparent;
+  border: transparent;
+  color: white;
+  font-size: 14px;
+  width: 80%;
+  margin: auto;
+  text-align: left;
+}
