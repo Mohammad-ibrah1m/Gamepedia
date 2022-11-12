@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.navbar{
+    background-color: #2F303E !important;
+    width: 80% !important;
+    margin-left: auto !important;
+    padding: 0.8rem 0.1rem !important;
+}
+
+.navbar a,.navbar h4,.navbar p,.navbar span{
+    color: #d8d8d8 !important;
+}
+
+.navbar h4,.navbar a,.navbar p,.navbar span {
+    font-size: 14px !important;
+}
+
+
+.user{
+    margin-left: 12px !important;
+    margin-top: 12px !important;
+}
+.user:after{
+content: 'Online';
+font-size: 12px;
+display: block;
+}
+
+.navItem{
+    margin-left: 12px !important;
+}
