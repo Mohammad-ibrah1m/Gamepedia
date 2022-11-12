@@ -1,9 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Container from "./Components/Container";
+import Box from "./Components/Boxes";
+import Carrousel from "./Components/Carousel";
 
 function App() {
-  return <Container />;
+  return <Carrousel />;
 }
 
 export default App;

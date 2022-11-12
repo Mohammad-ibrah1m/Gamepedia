@@ -1,0 +1,8 @@
+.CarouselBox{
+    background-color: black;
+    color: black;
+    height: 20px;
+}
+.carousel-control-prev{
+    background-color: black !important;
+}

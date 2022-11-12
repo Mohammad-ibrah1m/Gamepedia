@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boxContainer {
+  width: 255px;
+  /* height: 294px; */
+  position: relative;
+  background-color: #333442;
+    border-radius: 5px;
+    border: none;
+}
+.fixedTitle {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: #6f6eff;
+  color: white;
+  border-radius: 4px;
+  padding: 3px;
+  font-size: 12px;
+}
+.AcceptButtonDiv {
+  display: flex;
+  justify-content: flex-end;
+}
+.AcceptButton {
+  background-color: #6f6eff;
+  color: white;
+  border: none;
+  padding: 7px;
+  border-radius: 4px;
+}
+.BoxImage {
+  width: 100%;
+}
+.Words{
+    padding: 8px;
+}
+.hrBox{
+    height: 1px;
+    opacity: 0.5;
+    background-color: #D8D8D8;
+    color: #D8D8D8;
+    margin: 10px 0;
+}
