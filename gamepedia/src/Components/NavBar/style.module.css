@@ -4,6 +4,10 @@
     padding: 0 !important;
 }
 
+body{
+    background-color: #2F303E !important;
+}
+
 .navbar{
     background-color: #2F303E !important;
     width: 80% !important;
