@@ -82,12 +82,12 @@ const Accor = () => {
               ) : (
                 <Accordion.Collapse eventKey={index}>
                   <Card.Body>
-                    <ul>
+                    <ul className={Style.list}>
                       {row.items.map((item, index) => {
                         return (
                           <ContextAwareToggle>
                             <li key={index}>
-                              <div>{item.name}</div>
+                              <button className={Style.Category}>{item.name}</button>
                             </li>
                           </ContextAwareToggle>
                         );

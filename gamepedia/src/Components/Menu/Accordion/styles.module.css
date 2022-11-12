@@ -18,3 +18,15 @@
   border: transparent;
   padding: 7.5px 0;
 }
+
+.list{
+  list-style: none;
+}
+
+.Category{
+  background: transparent;
+  border: transparent;
+  width: 100%;
+  text-align: left;
+  color: white;
+}
